@@ -3,25 +3,1208 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  margin-top: 80px;
+  height: 25vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 5s linear;
+
   }
+
+}
+Header {
+  text-align: center;
+  background: linear-gradient(90deg,#0388e5 0,#07bdf4);
+  color: white;
+  padding: .7em 1.5em 0;
+  height: 60px;
+
+}
+h1{
+  margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#menu {
+  margin-top: -16px;
+  background-color: rgb(37, 37, 39);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu ul{
+    max-width: 1900px;
+    list-style: none;
+    padding: 0;
+     
+}
+#menu ul li {
+  display : inline; 
+  text-align: center;
+
+}
+
+#menu ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+  
+}
+#menu ul li a:hover {
+  background-color: rgb(24, 139, 233);
+ 
+}
+
+#menu ul li:first-child a {
+
+  margin-right: 200px;
+  
+  background-color: rgb(24, 139, 233);
+  transition: background .4s;
+}
+
+#menu ul li:last-child a {
+  margin-left : 200px;
+  background-color: rgb(24, 139, 233);
+  transition: background .4s;
+}
+.sqlmongo{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 200px;
+  width: 1500px;
+  height: 600px;
+  
+  }
+#home{
+    display : block;
+    margin-left: 350px;
+    margin-top: -580px;
+    width: 1200px;
+    height: 600px;
+    background-color: #52B5F2;
+    border-radius: 5px;
+    
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+.title{
+  padding-top: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
   color: white;
+}
+.subtitle{
+  padding-top: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: white;
+}
+
+#mat{
+    display : block;
+    margin-left: 200px;
+    margin-top: -580px;
+    width: 1500px;
+    height: 600px;
+    background-color: #52B5F2;
+    border-radius: 5px;
+    
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+#att{
+  display : block;
+  margin-left: 200px;
+    margin-top: -580px;
+  width: 1500px;
+  height: 600px;
+  background-color: #52B5F2;
+  border-radius: 5px;
+  
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+#exc{
+  display : block;
+  margin-left: 200px;
+  margin-top: -580px;
+  width: 1500px;
+  height: 600px;
+  background-color: #52B5F2;
+  border-radius: 5px;
+  
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+/* ---------------------------------  CSS MATRICULAR ------------------------------- */
+
+
+.conteudo2{
+  float: left;
+  width: 750px;
+  height: 600px;
+  background-color: #52B5F2;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+
+.titulo{
+  margin-top: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: white;
+}
+.texto1{
+  margin-top: 40px;
+  margin-left: 150px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.texto2{
+  margin-top: 80px;
+  margin-left: 150px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.texto3{
+  margin-top: 20px;
+  margin-left: 150px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+#nome{
+  margin-left: 25px;
+  width: 260px;
+  height: 20px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+}
+#id_aluno{
+  width : 50px;
+  height: 20px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+}
+#id_aluno:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#nome:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+
+#turma{
+  margin-left: 25px;
+  width: 260px;
+  height: 20px;
+  border-radius: 5px;
+  background-color:whitesmoke;
+}
+#turma:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#resp{
+  margin-top: 30px;
+  margin-left: 80px;
+  background-color: #9BD1F2;
+  width: 550px;
+  height: 100px;
+  border-radius: 10px;
+  overflow: auto;
+}
+#botaoLM{
+  margin-top: 30px;
+  margin-left: 0px;
+  width: 150px;
+  height: 70px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLM:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#botaoLT{
+  margin-left: 25px;
+  width: 120px;
+  height: 70px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLT:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#botaoLA{
+  margin-left: 25px;
+  width: 120px;
+  height: 70px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLA:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+.conteudo3{
+  float: left;
+  width: 750px;
+  height: 600px;
+  background-color: #52B5F2;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#result{
+  margin-top: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: white;
+}
+#botaoM{
+  margin-top: 40px;
+  margin-left: 120px;
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoM:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+
+#res{
+  margin-top: 30px;
+  margin-left: 80px;
+  background-color: #9BD1F2;
+  width: 550px;
+  height: 340px;
+  border-radius: 10px;
+  overflow: auto;
+  
+}
+#res1{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  list-style: none;
+  
+}
+
+/* ---------------------------------  CSS MATRICULAR ------------------------------- */
+/* ---------------------------------  CSS ATUALIZAR  ------------------------------- */
+.conteudo2_att{
+  float: left;
+  width: 750px;
+  height: 600px;
+  background-color: #52B5F2;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+
+.titulo_att{
+  margin-top: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: white;
+}
+.texto1_att{
+  margin-top: 40px;
+  margin-left: 150px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.texto2_att{
+  margin-top: 80px;
+  margin-left: 150px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.texto3_att{
+  margin-top: 20px;
+  margin-left: 150px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+#nome_att{
+  margin-left: 25px;
+  width: 260px;
+  height: 20px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+}
+#id_aluno_att{
+  width : 50px;
+  height: 20px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+}
+#id_aluno_att:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#nome_att:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+
+#turma_att{
+  margin-left: 25px;
+  width: 260px;
+  height: 20px;
+  border-radius: 5px;
+  background-color:whitesmoke;
+}
+#turma_att:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#resp_att{
+  margin-top: 30px;
+  margin-left: 80px;
+  background-color: #9BD1F2;
+  width: 550px;
+  height: 100px;
+  border-radius: 10px;
+  overflow: auto;
+}
+#botaoLM_att{
+  margin-top: 30px;
+  margin-left: 0px;
+  width: 150px;
+  height: 70px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLM_att:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#botaoLT_att{
+  margin-left: 25px;
+  width: 120px;
+  height: 70px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLT_att:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#botaoLA_att{
+  margin-left: 25px;
+  width: 120px;
+  height: 70px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLA_att:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+.conteudo3_att{
+  float: left;
+  width: 750px;
+  height: 600px;
+  background-color: #52B5F2;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#result_att{
+  margin-top: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: white;
+}
+
+#botaoMT_att{
+  margin-top: 60px;
+  margin-bottom: 70px;
+  margin-left: 140px;
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoMT_att:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#botaoEX_att{
+  margin-left: 25px;
+  width: 120px;
+  height: 70px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoEX_att:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#res_att{
+  margin-top: 30px;
+  margin-left: 80px;
+  background-color: #9BD1F2;
+  width: 550px;
+  height: 340px;
+  border-radius: 10px;
+  overflow: auto;
+  
+}
+#res1_att{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  list-style: none;
+  
+}
+
+/* ---------------------------------------- CSS ATUALIZAR --------------------------- */
+/* ---------------------------------  CSS EXCLUIR  ------------------------------- */
+.conteudo2_exc{
+  float: left;
+  width: 750px;
+  height: 600px;
+  background-color: #52B5F2;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+
+.titulo_exc{
+  margin-top: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: white;
+}
+.texto1_exc{
+  margin-top: 40px;
+  margin-left: 150px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.texto2_exc{
+  margin-top: 80px;
+  margin-left: 150px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.texto3_exc{
+  margin-top: 20px;
+  margin-left: 150px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+#nome_exc{
+  margin-left: 25px;
+  width: 260px;
+  height: 20px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+}
+#id_aluno_exc{
+  width : 50px;
+  height: 20px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+}
+#id_aluno_exc:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#nome_exc:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+
+#turma_exc{
+  margin-left: 25px;
+  width: 260px;
+  height: 20px;
+  border-radius: 5px;
+  background-color:whitesmoke;
+}
+#turma_exc:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#resp_exc{
+  margin-top: 30px;
+  margin-left: 80px;
+  background-color: #9BD1F2;
+  width: 550px;
+  height: 100px;
+  border-radius: 10px;
+  overflow: auto;
+}
+#botaoLM_exc{
+  margin-top: 30px;
+  margin-left: 0px;
+  width: 150px;
+  height: 70px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLM_exc:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#botaoLT_exc{
+  margin-left: 25px;
+  width: 120px;
+  height: 70px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLT_exc:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#botaoLA_exc{
+  margin-left: 25px;
+  width: 120px;
+  height: 70px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLA_exc:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+.conteudo3_exc{
+  float: left;
+  width: 750px;
+  height: 600px;
+  background-color: #52B5F2;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#result_exc{
+  margin-top: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: white;
+}
+
+#botaoEX_exc{
+  margin-top: 60px;
+  margin-bottom: 70px;
+  margin-left: 140px;
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoEX_exc:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#res_exc{
+  margin-top: 30px;
+  margin-left: 80px;
+  background-color: #9BD1F2;
+  width: 550px;
+  height: 340px;
+  border-radius: 10px;
+  overflow: auto;
+  
+}
+#res1_exc{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  list-style: none;
+  
+}
+
+/* ---------------------------------------- CSS EXCLUIR --------------------------- */
+
+#att{
+  display : none;
+}
+#exc{
+  display : none;
+}
+
+/* ------------------------------- MATRICULAR MDB ---------------------------------- */
+
+#mat_MDB{
+  display : block;
+  margin-left: 200px;
+  margin-top: -580px;
+  width: 1500px;
+  height: 600px;
+  background-color: #52B5F2;
+  border-radius: 5px;
+  
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+#att_MDB{
+display : block;
+margin-left: 200px;
+  margin-top: -580px;
+width: 1500px;
+height: 600px;
+background-color: #52B5F2;
+border-radius: 5px;
+
+box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+#exc_MDB{
+display : block;
+margin-left: 200px;
+margin-top: -580px;
+width: 1500px;
+height: 600px;
+background-color: #52B5F2;
+border-radius: 5px;
+
+box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+#att_MDB{
+  display : none;
+}
+#exc_MDB{
+  display : none;
+}
+
+/* ---------------------------------  CSS MATRICULAR ------------------------------- */
+
+
+.conteudo2_mat_MDB{
+float: left;
+width: 750px;
+height: 600px;
+background-color: #52B5F2;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+
+}
+
+.titulo_mat_MDB{
+margin-top: 40px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 35px;
+color: white;
+}
+.texto1_mat_MDB{
+margin-top: 40px;
+margin-left: 150px;
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: white;
+}
+.texto2_mat_MDB{
+margin-top: 80px;
+margin-left: 150px;
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: white;
+}
+.texto3_mat_MDB{
+margin-top: 20px;
+margin-left: 150px;
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: white;
+}
+#nome_mat_MDB{
+margin-left: 25px;
+width: 260px;
+height: 20px;
+border-radius: 5px;
+background-color:rgb(255, 255, 255);
+}
+#id_aluno_mat_MDB{
+width : 50px;
+height: 20px;
+border-radius: 5px;
+background-color:rgb(255, 255, 255);
+}
+#id_aluno_mat_MDB:hover{
+background-color:rgba(255, 255, 255, 0.9);
+}
+#nome_mat_MDB:hover{
+background-color:rgba(255, 255, 255, 0.9);
+}
+
+#turma_mat_MDB{
+margin-left: 25px;
+width: 260px;
+height: 20px;
+border-radius: 5px;
+background-color:whitesmoke;
+}
+#turma_mat_MDB:hover{
+background-color:rgba(255, 255, 255, 0.9);
+}
+#resp_mat_MDB{
+margin-top: 30px;
+margin-left: 80px;
+background-color: #9BD1F2;
+width: 550px;
+height: 100px;
+border-radius: 10px;
+overflow: auto;
+}
+#botaoLM_mat_MDB{
+margin-top: 30px;
+margin-left: 0px;
+width: 150px;
+height: 70px;
+border-radius: 5px;
+background-color:rgb(255, 255, 255);
+box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLM_mat_MDB:hover{
+background-color:rgba(255, 255, 255, 0.9);
+}
+#botaoLT_mat_MDB{
+margin-left: 25px;
+width: 120px;
+height: 70px;
+border-radius: 5px;
+background-color:rgb(255, 255, 255);
+box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLT_mat_MDB:hover{
+background-color:rgba(255, 255, 255, 0.9);
+}
+#botaoLA_mat_MDB{
+margin-left: 25px;
+width: 120px;
+height: 70px;
+border-radius: 5px;
+background-color:rgb(255, 255, 255);
+box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLA_mat_MDB:hover{
+background-color:rgba(255, 255, 255, 0.9);
+}
+.conteudo3_mat_MDB{
+float: left;
+width: 750px;
+height: 600px;
+background-color: #52B5F2;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+#result_mat_MDB{
+margin-top: 40px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 35px;
+color: white;
+
+
+}
+#botaoM_mat_MDB{
+margin-top: 60px;
+margin-bottom: 70px;
+margin-left: 10px;
+width: 180px;
+height: 50px;
+border-radius: 5px;
+background-color:rgb(255, 255, 255);
+box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+
+
+}
+#botaoM_mat_MDB:hover{
+background-color:rgba(255, 255, 255, 0.9);
+}
+
+#res_mat_MDB{
+margin-top: 30px;
+margin-left: 80px;
+background-color: #9BD1F2;
+width: 550px;
+height: 340px;
+border-radius: 10px;
+overflow: auto;
+
+}
+#res1_mat_MDB{
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+list-style: none;
+
+}
+
+/* ------------------------------- MATRICULAR MDB ---------------------------------- */
+
+/* ---------------------------------  MDB ATUALIZAR  ------------------------------- */
+.conteudo2_att_MDB{
+  float: left;
+  width: 750px;
+  height: 600px;
+  background-color: #52B5F2;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+
+.titulo_att_MDB{
+  margin-top: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: white;
+}
+.texto1_att_MDB{
+  margin-top: 40px;
+  margin-left: 150px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.texto2_att_MDB{
+  margin-top: 80px;
+  margin-left: 150px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.texto3_att_MDB{
+  margin-top: 20px;
+  margin-left: 150px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+#nome_att_MDB{
+  margin-left: 25px;
+  width: 260px;
+  height: 20px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+}
+#id_aluno_att_MDB{
+  width : 50px;
+  height: 20px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+}
+#id_aluno_att_MDB:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#nome_att_MDB:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+
+#turma_att_MDB{
+  margin-left: 25px;
+  width: 260px;
+  height: 20px;
+  border-radius: 5px;
+  background-color:whitesmoke;
+}
+#turma_att_MDB:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#resp_att_MDB{
+  margin-top: 30px;
+  margin-left: 80px;
+  background-color: #9BD1F2;
+  width: 550px;
+  height: 100px;
+  border-radius: 10px;
+  overflow: auto;
+}
+#botaoLM_att_MDB{
+  margin-top: 30px;
+  margin-left: 0px;
+  width: 150px;
+  height: 70px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLM_att_MDB:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#botaoLT_att_MDB{
+  margin-left: 25px;
+  width: 120px;
+  height: 70px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLT_att_MDB:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#botaoLA_att_MDB{
+  margin-left: 25px;
+  width: 120px;
+  height: 70px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLA_att_MDB:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+.conteudo3_att_MDB{
+  float: left;
+  width: 750px;
+  height: 600px;
+  background-color: #52B5F2;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#result_att_MDB{
+  margin-top: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: white;
+}
+
+#botaoMT_att_MDB{
+  margin-top: 60px;
+  margin-bottom: 70px;
+  margin-left: 140px;
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoMT_att_MDB:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#botaoEX_att_MDB{
+  margin-left: 25px;
+  width: 120px;
+  height: 70px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoEX_att_MDB:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#res_att_MDB{
+  margin-top: 30px;
+  margin-left: 80px;
+  background-color: #9BD1F2;
+  width: 550px;
+  height: 340px;
+  border-radius: 10px;
+  overflow: auto;
+  
+}
+#res1_att_MDB{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  list-style: none;
+  
+}
+
+/* ---------------------------------------- MDB ATUALIZAR --------------------------- */
+/* ---------------------------------  MDB EXCLUIR  ------------------------------- */
+.conteudo2_exc_MDB{
+  float: left;
+  width: 750px;
+  height: 600px;
+  background-color: #52B5F2;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+
+.titulo_exc_MDB{
+  margin-top: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: white;
+}
+.texto1_exc_MDB{
+  margin-top: 40px;
+  margin-left: 150px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.texto2_exc_MDB{
+  margin-top: 80px;
+  margin-left: 150px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.texto3_exc_MDB{
+  margin-top: 20px;
+  margin-left: 150px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+#nome_exc_MDB{
+  margin-left: 25px;
+  width: 260px;
+  height: 20px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+}
+#id_aluno_exc_MDB{
+  width : 50px;
+  height: 20px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+}
+#id_aluno_exc_MDB:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#nome_exc_MDB:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+
+#turma_exc_MDB{
+  margin-left: 25px;
+  width: 260px;
+  height: 20px;
+  border-radius: 5px;
+  background-color:whitesmoke;
+}
+#turma_exc_MDB:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#resp_exc_MDB{
+  margin-top: 30px;
+  margin-left: 80px;
+  background-color: #9BD1F2;
+  width: 550px;
+  height: 100px;
+  border-radius: 10px;
+  overflow: auto;
+}
+#botaoLM_exc_MDB{
+  margin-top: 30px;
+  margin-left: 0px;
+  width: 150px;
+  height: 70px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLM_exc_MDB:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#botaoLT_exc_MDB{
+  margin-left: 25px;
+  width: 120px;
+  height: 70px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLT_exc_MDB:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#botaoLA_exc_MDB{
+  margin-left: 25px;
+  width: 120px;
+  height: 70px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoLA_exc_MDB:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+.conteudo3_exc_MDB{
+  float: left;
+  width: 750px;
+  height: 600px;
+  background-color: #52B5F2;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#result_exc_MDB{
+  margin-top: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: white;
+}
+
+#botaoEX_exc_MDB{
+  margin-top: 60px;
+  margin-bottom: 70px;
+  margin-left: 140px;
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 4px 2px 1px rgba(50, 50, 50, 0.6);
+}
+#botaoEX_exc_MDB:hover{
+  background-color:rgba(255, 255, 255, 0.9);
+}
+#res_exc_MDB{
+  margin-top: 30px;
+  margin-left: 80px;
+  background-color: #9BD1F2;
+  width: 550px;
+  height: 340px;
+  border-radius: 10px;
+  overflow: auto;
+  
+}
+#res1_exc_MDB{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  list-style: none;
+  
+}
+
+/* ---------------------------------------- MDB EXCLUIR --------------------------- */
+
+Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #116fbf;
+  color: white;
+  text-align: center;
 }
 
 .App-link {
